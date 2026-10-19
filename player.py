@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 def main():
-    pasta_frames = "frames"
+    pasta_frames = "frame"
     fps = 30
     delay_padrao_ms = int(1000 / fps)
 
