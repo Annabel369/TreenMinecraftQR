@@ -4,7 +4,7 @@ from PIL import Image
 
 def gerar_qr_com_paleta(nome_arquivo, tipo_paleta):
     cfgPIX = "810924f7-69b3-4116-8d8f-692e4a25c251"
-    pasta_destino = "frames"
+    pasta_destino = "frame"
     caminho_completo = os.path.join(pasta_destino, nome_arquivo)
 
     largura_alvo = 720
